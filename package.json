@@ -1,0 +1,30 @@
+{
+    "name": "digital-menu",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index",
+        "serve": "node index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BonkHo/digital-menu.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/BonkHo/digital-menu/issues"
+    },
+    "homepage": "https://github.com/BonkHo/digital-menu#readme",
+    "dependencies": {
+        "apollo-server": "^3.5.0",
+        "express": "^4.17.1",
+        "graphql": "^16.0.1",
+        "mongoose": "^6.0.13"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
